@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Luckiest+Guy&family=Poppins:wght@700&family=Righteous&family=Rubik:wght@500&family=Sarala:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #0C0C0C;
+    font-size: 100%;
+    position: relative;
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+.logo { 
+    position: absolute;
+    width: 91px;
+    height: 48px;
+    left: 60px;
+    top: 42px;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 42px;
+    left: 80px;
+}
+
+.navegar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 108px;
+    height: 21px;
+    left: 591px;
+    top: 42px;
+}
+
+.navegacao {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600, Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.botao {
+     display: flex;
+     position: absolute;
+     width: 180px;
+     height: 62px;
+     left: 1310px;
+     top: 19px;
+     border: 4px solid #FFA503;
+     box-sizing: border-box;
+     border-radius: 15px;
+     justify-content: center;
+}
+
+.login {
+     font-family: 'Rubik', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 21px;
+     color: #FFFFFF;
+     align-items: center;
+     justify-content: space-around;
+     left: 1310px;
+     padding: 17px;
+}
+
+.secao-principal {
+    position: absolute;
+    width: 504px;
+    height: 74px;
+    left: 120px;
+    top: 390px;
+    left: 240px;
+    top: 232px;
+}
+
+.image-retangulo {
+    position: absolute;
+    width: 156.4px;
+    height: 64px;
+    left: 347.6px;
+    top: 230px;
+    border-radius: 8px;
+}
+
+.image-retangulo1 {
+    position: absolute;
+    width: 380px;
+    height: 104px;
+    left: 0.9px;
+    top: 208px;
+    border-radius: 8px;
+}
+
+.image-rocket {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 410px;
+    top: 232px;
+}
+
+.texto-email {
+    position: absolute; 
+    left: 20px;
+    top: 390px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 6.9;
+    top: 250px;
+}
+
+.image-background {
+    position: absolute;
+    width: 796px;
+    height: 979px;
+    left: 1122px;
+    top: 0px;
+}
+
+.Trade-With {
+    display: flex;
+    top: 558px;
+}
+
+.icones {
+    position: absolute;
+    width: 565.14px;
+    height: 53.35px;
+    left: 238px;
+    top: 635px;
+}
+
+.Best-Sellers {
+    position: absolute;
+    width: 161px;
+    height: 33px;
+    left: 238px;
+    top: 820px;
+}
+
+.Div-Cards {
+    position: absolute;
+    width: 454px;
+    height: 521px;
+    left: 238px;
+    top: 900px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 29.1171px 29.1171px 0px 0px;
+}
+
+.cards {
+     padding-right: 78px;
+     padding-bottom: 40px;
+}
+
